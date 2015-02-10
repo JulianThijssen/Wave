@@ -1,0 +1,3 @@
+install glfw to .so
+install glew
+install opengl

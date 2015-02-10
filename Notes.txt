@@ -1,0 +1,124 @@
+Application.py
+  main:
+    new window
+    opengl hint 3.0
+    while(not closed):
+      window.run()
+    glfw.poll
+
+Window.py
+  run:
+    if should close:
+      close
+    on_draw, event to draw
+    swap
+
+Random.py
+  random_floats:
+    return random float between low and high
+
+Camera.py
+  constructor:
+    set position
+    viewmatrix identity
+    update()
+  translate:
+    add direction to position
+  update:
+    view = view.translate(-position)
+
+Transform.py
+  translation:
+    get translation matrix
+  translate:
+    translate matrix
+  scaling:
+    get scale matrix
+  scale:
+    scale matrix
+  ortho:
+    get orthographic matrix
+  frustum:
+    get perspective matrix (note he misses mat[3, 3] = 0)
+  perspective:
+    get perspective matrix
+
+Json.py
+  read_json(path):
+    read a json file
+  write_json(path, data):
+    write data to a json file
+
+Program.py
+  constructor:
+    create program
+    read json from path
+    attach shaders
+    link shaders
+
+Context.py
+  constructor:
+    make list of states
+    set time to 0
+  subscribe:
+    add callback to list of callbacks
+  add_state:
+    if event is in states, OR the state with the list
+    else, set state in the list
+  update:
+    delta = time - this.time
+    this.time = time
+    for all callbacks, call them with the set of states and delta
+  on_key_input:
+    if action is PRESS or RELEASE,
+      event = key
+      if event not in states, stop
+      set states to the event in this.states
+      if PRESS, OR with active states
+      if RELEASE, ^ with active states
+
+Mesh.py
+  constructor:
+    create vao, vbo
+    bind vao
+    bind vbo
+    upload data (bufferdata)
+    set stride
+    
+    for every attribute,
+      enable vertex attrib at location
+      vertex attrib pointer at location, count, dtype, FALSE, stride, offset
+  draw:
+    program activate
+    bind vao
+    bind vbo
+	draw the mesh
+
+Shader.py
+  constructor:
+    create shader(type)
+    name = path
+    source = load(path)
+    compile()
+  convert_type:
+    return GL_VERTEX_SHADER or GL_FRAGMENT_SHADER
+  load:
+    if path doesnt exist, raise error
+    open file
+    read file
+    return data
+  compile:
+    set shadersource to source
+    compile shader
+    if compiled correctly, done
+    else, get log and raise error
+
+Uniform.py
+  constructor:
+    set name to name
+    set location to location
+    set size to size
+  create:
+    etc.
+
+

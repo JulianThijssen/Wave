@@ -1,0 +1,56 @@
+rstrip = numpy.empty((2 * width - 1, 2), dtype=numpy.float32)
+rstrip[::2, 0] = numpy.arange(0, width)
+rstrip[::2, 1] = 1
+rstrip[1::2, 0] = numpy.arange(1, width)
+rstrip[1::2, 1] = 0
+
+lstrip = numpy.empty((2 * width - 1, 2), dtype=numpy.float32)
+lstrip[::2, 0] = numpy.arange(width, 0, -1) - 1
+lstrip[::2, 1] = 1
+lstrip[1::2, 0] = numpy.arange(width - 1, 0, -1) - 1
+lstrip[1::2, 1] = 0
+
+grid = numpy.empty((height - 1, 2 * width - 1, 2), dtype=numpy.float32)
+grid[0::2], grid[1::2] = rstrip, lstrip
+
+grid[0::2, :, 1] += numpy.repeat(numpy.arange(0, height - 1, 2), len(rstrip)).reshape(height // 2, len(rstrip))
+grid[1::2, :, 1] += numpy.repeat(numpy.arange(1, height - 1, 2), len(lstrip)).reshape((height - 1) // 2, len(lstrip))
+grid = grid.reshape(grid.shape[0] * grid.shape[1], 2)
+grid = numpy.concatenate((numpy.zeros((1, 2), dtype=numpy.float32), grid))
+
+
+
+rstrip = float array of size [2 * width - 1][2]
+every 2nd item of rstrip[0] = range(0, width)
+every 2nd item of rstrip[1] = 1
+every 2nd item starting at 1 of rstrip[0] = range(1, width)
+every 2nd item starting at 1 of rstrip[1] = 0
+
+lstrip = float array of size [2 * width - 1][2]
+every 2nd item of rstrip[0] = range(width, 0) - 1
+every 2nd item of rstrip[1] = 1
+every 2nd item starting at 1 of rstrip[0] = range(width - 1, 0) - 1
+every 2nd item starting at 1 of rstrip[1] = 0
+
+grid = float array of size [height - 1][2 * width - 1][2]
+every 2nd item of grid starting at 0 = rstrip
+every 2nd item of grid starting at 1 = lstrip
+
+shape1 = (floor(height / 2), length(rstrip))
+shape2 = (floor(height-1 / 2), length(lstrip))
+array1 = new array[start=0, end=height-1, step=2]
+array2 = new array[start=1, end=height-1, step=2]
+result1 = repeat every element in array1, length(rstrip) times and reshape it into shape1
+result2 = repeat every element in array2, length(lstrip) times and reshape it into shape2
+add result1 array to every second element
+add result2 array to every second element starting at 1
+reshape grid into array[grid.width * grid.height, 2]
+concatenate a 0 in front of grid[:][0] and grid[:][1]
+
+for every second grid[0::2, :, 1] 
+add 
+0, 0+, 0, 0+  -> 1023
+0, 0+, 0, 0+  -> 1023
+0, 0+, 0, 0+  -> 1023
+0, 0+, 0, 0+  -> 1023
+0, 2+, 0, 2+  -> 1023
