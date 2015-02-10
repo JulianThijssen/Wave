@@ -8,6 +8,7 @@ CMakeFiles/Wave.dir/Application.cpp.o
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Vector3f.h
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/WaterSurface.h
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Window.h
+ glew/include/GL/glew.h
  glfw-3.1/include/GLFW/glfw3.h
 CMakeFiles/Wave.dir/Log.cpp.o
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Log.cpp
@@ -22,10 +23,12 @@ CMakeFiles/Wave.dir/Renderer.cpp.o
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Vector2f.h
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Vector3f.h
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/WaterSurface.h
+ glew/include/GL/glew.h
 CMakeFiles/Wave.dir/ShaderLoader.cpp.o
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Log.h
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/ShaderLoader.cpp
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/ShaderLoader.h
+ glew/include/GL/glew.h
 CMakeFiles/Wave.dir/Vector2f.cpp.o
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Vector2f.cpp
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Vector2f.h
@@ -38,8 +41,10 @@ CMakeFiles/Wave.dir/WaterSurface.cpp.o
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Vector3f.h
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/WaterSurface.cpp
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/WaterSurface.h
+ glew/include/GL/glew.h
 CMakeFiles/Wave.dir/Window.cpp.o
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Log.h
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Window.cpp
  /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/Window.h
+ glew/include/GL/glew.h
  glfw-3.1/include/GLFW/glfw3.h

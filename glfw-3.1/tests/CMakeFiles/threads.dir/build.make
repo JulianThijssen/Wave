@@ -109,6 +109,7 @@ glfw-3.1/tests/threads: glfw-3.1/tests/CMakeFiles/threads.dir/build.make
 glfw-3.1/tests/threads: glfw-3.1/src/libglfw3.a
 glfw-3.1/tests/threads: /usr/lib/x86_64-linux-gnu/libGLU.so
 glfw-3.1/tests/threads: /usr/lib/x86_64-linux-gnu/libX11.so
+glfw-3.1/tests/threads: /usr/lib/x86_64-linux-gnu/librt.so
 glfw-3.1/tests/threads: /usr/lib/x86_64-linux-gnu/libXrandr.so
 glfw-3.1/tests/threads: /usr/lib/x86_64-linux-gnu/libXinerama.so
 glfw-3.1/tests/threads: /usr/lib/x86_64-linux-gnu/libXi.so

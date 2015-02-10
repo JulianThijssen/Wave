@@ -1,0 +1,1 @@
+/usr/bin/cc    -DGLEW_BUILD -DGLEW_NO_GLU -O2 -Wall -W    CMakeFiles/glewinfo.dir/src/glewinfo.o  -o CMakeFiles/CMakeRelink.dir/glewinfo -rdynamic ../lib/libGLEW.so -lGL -lSM -lICE -lX11 -lXext 

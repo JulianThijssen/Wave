@@ -1,3 +1,7 @@
+/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glew/CMakeFiles/GLEW_MX_shared.dir
+/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glew/CMakeFiles/GLEW_MX_static.dir
+/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glew/CMakeFiles/GLEW_shared.dir
+/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glew/CMakeFiles/GLEW_static.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/Wave.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/tests/CMakeFiles/accuracy.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/examples/CMakeFiles/boing.dir
@@ -10,6 +14,7 @@
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/tests/CMakeFiles/fsaa.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/tests/CMakeFiles/gamma.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/examples/CMakeFiles/gears.dir
+/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glew/CMakeFiles/glewinfo.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/src/CMakeFiles/glfw.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/tests/CMakeFiles/glfwinfo.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/examples/CMakeFiles/heightmap.dir
@@ -26,5 +31,6 @@
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/tests/CMakeFiles/threads.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/tests/CMakeFiles/title.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/CMakeFiles/uninstall.dir
+/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glew/CMakeFiles/visualinfo.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/examples/CMakeFiles/wave.dir
 /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/glfw-3.1/tests/CMakeFiles/windows.dir

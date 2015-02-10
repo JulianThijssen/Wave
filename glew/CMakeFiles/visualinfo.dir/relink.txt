@@ -1,0 +1,1 @@
+/usr/bin/cc    -DGLEW_BUILD -DGLEW_NO_GLU -O2 -Wall -W    CMakeFiles/visualinfo.dir/src/visualinfo.o  -o CMakeFiles/CMakeRelink.dir/visualinfo -rdynamic ../lib/libGLEW.so -lGL -lSM -lICE -lX11 -lXext 

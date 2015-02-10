@@ -71,3 +71,149 @@ make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CM
 make: *** [cmTryCompileExec3985578150/fast] Error 2
 
 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4201132589/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4201132589.dir/build.make CMakeFiles/cmTryCompileExec4201132589.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4201132589.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4201132589.dir/CheckSymbolExists.c.o   -c /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4201132589
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4201132589.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec4201132589.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4201132589 -rdynamic 
+CMakeFiles/cmTryCompileExec4201132589.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4201132589] Error 1
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4201132589/fast] Error 2
+
+File /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec412841790/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec412841790.dir/build.make CMakeFiles/cmTryCompileExec412841790.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec412841790.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec412841790.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec412841790
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec412841790.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec412841790.dir/CheckFunctionExists.c.o  -o cmTryCompileExec412841790 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec412841790] Error 1
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec412841790/fast] Error 2
+
+
+Determining if the function glXGetProcAddressEXT exists failed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec541714852/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec541714852.dir/build.make CMakeFiles/cmTryCompileExec541714852.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec541714852.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTryCompileExec541714852.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec541714852
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec541714852.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    CMakeFiles/cmTryCompileExec541714852.dir/CheckFunctionExists.c.o  -o cmTryCompileExec541714852 -rdynamic -lGL 
+CMakeFiles/cmTryCompileExec541714852.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `glXGetProcAddressEXT'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec541714852] Error 1
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec541714852/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3209475616/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3209475616.dir/build.make CMakeFiles/cmTryCompileExec3209475616.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3209475616.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3209475616.dir/CheckSymbolExists.c.o   -c /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3209475616
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3209475616.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3209475616.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3209475616 -rdynamic 
+CMakeFiles/cmTryCompileExec3209475616.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3209475616] Error 1
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3209475616/fast] Error 2
+
+File /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2818684321/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2818684321.dir/build.make CMakeFiles/cmTryCompileExec2818684321.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2818684321.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2818684321.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2818684321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2818684321.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2818684321.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2818684321 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2818684321] Error 1
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2818684321/fast] Error 2
+
+
+Determining if the function glXGetProcAddressEXT exists failed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1314655749/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1314655749.dir/build.make CMakeFiles/cmTryCompileExec1314655749.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1314655749.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTryCompileExec1314655749.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1314655749
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1314655749.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    CMakeFiles/cmTryCompileExec1314655749.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1314655749 -rdynamic -lGL 
+CMakeFiles/cmTryCompileExec1314655749.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `glXGetProcAddressEXT'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1314655749] Error 1
+make: *** [cmTryCompileExec1314655749/fast] Error 2
+
+

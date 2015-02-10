@@ -528,3 +528,517 @@ int main()
     return 0;
 }
 
+Performing C++ SOURCE FILE Test CXX11_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4043583715/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4043583715.dir/build.make CMakeFiles/cmTryCompileExec4043583715.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4043583715.dir/src.cxx.o
+/usr/bin/c++    -DCXX11_FLAG_DETECTED -std=c++0x   -o CMakeFiles/cmTryCompileExec4043583715.dir/src.cxx.o -c /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4043583715
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4043583715.dir/link.txt --verbose=1
+/usr/bin/c++      -DCXX11_FLAG_DETECTED -std=c++0x    CMakeFiles/cmTryCompileExec4043583715.dir/src.cxx.o  -o cmTryCompileExec4043583715 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+class Matrix
+{
+public:
+    Matrix(int a, int b, int c, int d)
+        : data {a, b, c, d}
+    {}
+
+private:
+    int data[4];
+};
+
+int main()
+{
+    int n[] {4,7,6,1,2};
+    for (auto i : n)
+        Matrix mat (3,5,1,2);
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test CXX11_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec307418678/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec307418678.dir/build.make CMakeFiles/cmTryCompileExec307418678.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec307418678.dir/src.cxx.o
+/usr/bin/c++    -DCXX11_FLAG_DETECTED -std=c++0x   -o CMakeFiles/cmTryCompileExec307418678.dir/src.cxx.o -c /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec307418678
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec307418678.dir/link.txt --verbose=1
+/usr/bin/c++      -DCXX11_FLAG_DETECTED -std=c++0x    CMakeFiles/cmTryCompileExec307418678.dir/src.cxx.o  -o cmTryCompileExec307418678 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+class Matrix
+{
+public:
+    Matrix(int a, int b, int c, int d)
+        : data {a, b, c, d}
+    {}
+
+private:
+    int data[4];
+};
+
+int main()
+{
+    int n[] {4,7,6,1,2};
+    for (auto i : n)
+        Matrix mat (3,5,1,2);
+    return 0;
+}
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1927298529/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1927298529.dir/build.make CMakeFiles/cmTryCompileExec1927298529.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1927298529.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec1927298529.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1927298529
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1927298529.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec1927298529.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1927298529 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2067954650/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2067954650.dir/build.make CMakeFiles/cmTryCompileExec2067954650.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2067954650.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec2067954650.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2067954650
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2067954650.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec2067954650.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2067954650 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2170445600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2170445600.dir/build.make CMakeFiles/cmTryCompileExec2170445600.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2170445600.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec2170445600.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2170445600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2170445600.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec2170445600.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2170445600 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1557995089/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1557995089.dir/build.make CMakeFiles/cmTryCompileExec1557995089.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1557995089.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec1557995089.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1557995089
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1557995089.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec1557995089.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1557995089 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec837646912/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec837646912.dir/build.make CMakeFiles/cmTryCompileExec837646912.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec837646912.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec837646912.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec837646912
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec837646912.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec837646912.dir/CheckFunctionExists.c.o  -o cmTryCompileExec837646912 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3362059863/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3362059863.dir/build.make CMakeFiles/cmTryCompileExec3362059863.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3362059863.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec3362059863.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3362059863
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3362059863.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec3362059863.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3362059863 -rdynamic -lICE 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec519218622/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec519218622.dir/build.make CMakeFiles/cmTryCompileExec519218622.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec519218622.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec519218622.dir/CheckIncludeFiles.c.o   -c /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec519218622
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec519218622.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec519218622.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec519218622 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec246079301/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec246079301.dir/build.make CMakeFiles/cmTryCompileExec246079301.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec246079301.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec246079301.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec246079301
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec246079301.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec246079301.dir/CheckFunctionExists.c.o  -o cmTryCompileExec246079301 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddress exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3723519666/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3723519666.dir/build.make CMakeFiles/cmTryCompileExec3723519666.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3723519666.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTryCompileExec3723519666.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3723519666
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3723519666.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    CMakeFiles/cmTryCompileExec3723519666.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3723519666 -rdynamic -lGL 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddressARB exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4196702761/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4196702761.dir/build.make CMakeFiles/cmTryCompileExec4196702761.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4196702761.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTryCompileExec4196702761.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4196702761
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4196702761.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    CMakeFiles/cmTryCompileExec4196702761.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4196702761 -rdynamic -lGL 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test CXX11_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec966332186/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec966332186.dir/build.make CMakeFiles/cmTryCompileExec966332186.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec966332186.dir/src.cxx.o
+/usr/bin/c++    -DCXX11_FLAG_DETECTED -std=c++0x   -o CMakeFiles/cmTryCompileExec966332186.dir/src.cxx.o -c /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec966332186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec966332186.dir/link.txt --verbose=1
+/usr/bin/c++      -DCXX11_FLAG_DETECTED -std=c++0x    CMakeFiles/cmTryCompileExec966332186.dir/src.cxx.o  -o cmTryCompileExec966332186 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+class Matrix
+{
+public:
+    Matrix(int a, int b, int c, int d)
+        : data {a, b, c, d}
+    {}
+
+private:
+    int data[4];
+};
+
+int main()
+{
+    int n[] {4,7,6,1,2};
+    for (auto i : n)
+        Matrix mat (3,5,1,2);
+    return 0;
+}
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4037866316/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4037866316.dir/build.make CMakeFiles/cmTryCompileExec4037866316.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4037866316.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec4037866316.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4037866316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4037866316.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec4037866316.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4037866316 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1760257534/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1760257534.dir/build.make CMakeFiles/cmTryCompileExec1760257534.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1760257534.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec1760257534.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1760257534
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1760257534.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec1760257534.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1760257534 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1838438903/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1838438903.dir/build.make CMakeFiles/cmTryCompileExec1838438903.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1838438903.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec1838438903.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1838438903
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1838438903.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec1838438903.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1838438903 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec523516437/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec523516437.dir/build.make CMakeFiles/cmTryCompileExec523516437.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec523516437.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec523516437.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec523516437
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec523516437.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec523516437.dir/CheckFunctionExists.c.o  -o cmTryCompileExec523516437 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec302169995/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec302169995.dir/build.make CMakeFiles/cmTryCompileExec302169995.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec302169995.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec302169995.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec302169995
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec302169995.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec302169995.dir/CheckFunctionExists.c.o  -o cmTryCompileExec302169995 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2136312635/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2136312635.dir/build.make CMakeFiles/cmTryCompileExec2136312635.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2136312635.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec2136312635.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2136312635
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2136312635.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec2136312635.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2136312635 -rdynamic -lICE 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3924406701/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3924406701.dir/build.make CMakeFiles/cmTryCompileExec3924406701.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3924406701.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3924406701.dir/CheckIncludeFiles.c.o   -c /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3924406701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3924406701.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3924406701.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3924406701 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2471090893/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2471090893.dir/build.make CMakeFiles/cmTryCompileExec2471090893.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2471090893.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2471090893.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2471090893
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2471090893.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2471090893.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2471090893 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddress exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec682252018/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec682252018.dir/build.make CMakeFiles/cmTryCompileExec682252018.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec682252018.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTryCompileExec682252018.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec682252018
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec682252018.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    CMakeFiles/cmTryCompileExec682252018.dir/CheckFunctionExists.c.o  -o cmTryCompileExec682252018 -rdynamic -lGL 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddressARB exists passed with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2877620983/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2877620983.dir/build.make CMakeFiles/cmTryCompileExec2877620983.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2877620983.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTryCompileExec2877620983.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2877620983
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2877620983.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    CMakeFiles/cmTryCompileExec2877620983.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2877620983 -rdynamic -lGL 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test CXX11_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2681240302/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2681240302.dir/build.make CMakeFiles/cmTryCompileExec2681240302.dir/build
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2681240302.dir/src.cxx.o
+/usr/bin/c++    -DCXX11_FLAG_DETECTED -std=c++0x   -o CMakeFiles/cmTryCompileExec2681240302.dir/src.cxx.o -c /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2681240302
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2681240302.dir/link.txt --verbose=1
+/usr/bin/c++      -DCXX11_FLAG_DETECTED -std=c++0x    CMakeFiles/cmTryCompileExec2681240302.dir/src.cxx.o  -o cmTryCompileExec2681240302 -rdynamic 
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+class Matrix
+{
+public:
+    Matrix(int a, int b, int c, int d)
+        : data {a, b, c, d}
+    {}
+
+private:
+    int data[4];
+};
+
+int main()
+{
+    int n[] {4,7,6,1,2};
+    for (auto i : n)
+        Matrix mat (3,5,1,2);
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test CXX11_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec798582336/fast"
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec798582336.dir/build.make CMakeFiles/cmTryCompileExec798582336.dir/build
+make[2]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec798582336.dir/src.cxx.o
+/usr/bin/c++    -DCXX11_FLAG_DETECTED -std=c++0x   -o CMakeFiles/cmTryCompileExec798582336.dir/src.cxx.o -c /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec798582336
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec798582336.dir/link.txt --verbose=1
+/usr/bin/c++      -DCXX11_FLAG_DETECTED -std=c++0x    CMakeFiles/cmTryCompileExec798582336.dir/src.cxx.o  -o cmTryCompileExec798582336 -rdynamic 
+make[2]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+class Matrix
+{
+public:
+    Matrix(int a, int b, int c, int d)
+        : data {a, b, c, d}
+    {}
+
+private:
+    int data[4];
+};
+
+int main()
+{
+    int n[] {4,7,6,1,2};
+    for (auto i : n)
+        Matrix mat (3,5,1,2);
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test CXX11_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1069350353/fast"
+make[1]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1069350353.dir/build.make CMakeFiles/cmTryCompileExec1069350353.dir/build
+make[2]: Entering directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1069350353.dir/src.cxx.o
+/usr/bin/c++    -DCXX11_FLAG_DETECTED -std=c++0x   -o CMakeFiles/cmTryCompileExec1069350353.dir/src.cxx.o -c /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1069350353
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1069350353.dir/link.txt --verbose=1
+/usr/bin/c++      -DCXX11_FLAG_DETECTED -std=c++0x    CMakeFiles/cmTryCompileExec1069350353.dir/src.cxx.o  -o cmTryCompileExec1069350353 -rdynamic 
+make[2]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+class Matrix
+{
+public:
+    Matrix(int a, int b, int c, int d)
+        : data {a, b, c, d}
+    {}
+
+private:
+    int data[4];
+};
+
+int main()
+{
+    int n[] {4,7,6,1,2};
+    for (auto i : n)
+        Matrix mat (3,5,1,2);
+    return 0;
+}
+

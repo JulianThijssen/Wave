@@ -287,7 +287,6 @@ Wave: /usr/lib/x86_64-linux-gnu/libSM.so
 Wave: /usr/lib/x86_64-linux-gnu/libICE.so
 Wave: /usr/lib/x86_64-linux-gnu/libX11.so
 Wave: /usr/lib/x86_64-linux-gnu/libXext.so
-Wave: /usr/lib/x86_64-linux-gnu/libGLEW.so
 Wave: glfw-3.1/src/libglfw3.a
 Wave: /usr/lib/x86_64-linux-gnu/libX11.so
 Wave: /usr/lib/x86_64-linux-gnu/libXrandr.so
@@ -302,7 +301,6 @@ Wave: /usr/lib/x86_64-linux-gnu/libSM.so
 Wave: /usr/lib/x86_64-linux-gnu/libICE.so
 Wave: /usr/lib/x86_64-linux-gnu/libX11.so
 Wave: /usr/lib/x86_64-linux-gnu/libXext.so
-Wave: /usr/lib/x86_64-linux-gnu/libGLEW.so
 Wave: /usr/lib/x86_64-linux-gnu/libXrandr.so
 Wave: /usr/lib/x86_64-linux-gnu/libXinerama.so
 Wave: /usr/lib/x86_64-linux-gnu/libXi.so

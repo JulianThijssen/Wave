@@ -120,6 +120,22 @@ GL/glew.h
 GLFW/glfw3.h
 -
 
+glew/include/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+Availability.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
 glfw-3.1/include/GLFW/glfw3.h
 stddef.h
 -

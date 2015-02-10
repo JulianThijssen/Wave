@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/hainan/Dropbox/Graphics/assistance/Wave-CPP
 CMakeFiles/Wave.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/Wave.dir/build.make CMakeFiles/Wave.dir/depend
 	$(MAKE) -f CMakeFiles/Wave.dir/build.make CMakeFiles/Wave.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  1 2 3 4 5 6 7 8 9
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  5 6 7 8 9 10 11 12 13
 	@echo "Built target Wave"
 .PHONY : CMakeFiles/Wave.dir/all
 
@@ -162,7 +162,7 @@ glfw-3.1/src/preinstall:
 glfw-3.1/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f glfw-3.1/src/CMakeFiles/glfw.dir/build.make glfw-3.1/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f glfw-3.1/src/CMakeFiles/glfw.dir/build.make glfw-3.1/src/CMakeFiles/glfw.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  26 27 28 29 30 31 32 33 34 35 36 37 38
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  31 32 33 34 35 36 37 38 39 40 41 42 43
 	@echo "Built target glfw"
 .PHONY : glfw-3.1/src/CMakeFiles/glfw.dir/all
 
@@ -224,7 +224,7 @@ glfw-3.1/examples/preinstall:
 glfw-3.1/examples/CMakeFiles/boing.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/boing.dir/build.make glfw-3.1/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/boing.dir/build.make glfw-3.1/examples/CMakeFiles/boing.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  11
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  15
 	@echo "Built target boing"
 .PHONY : glfw-3.1/examples/CMakeFiles/boing.dir/all
 
@@ -259,7 +259,7 @@ clean: glfw-3.1/examples/CMakeFiles/boing.dir/clean
 glfw-3.1/examples/CMakeFiles/gears.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/gears.dir/build.make glfw-3.1/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/gears.dir/build.make glfw-3.1/examples/CMakeFiles/gears.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  25
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  29
 	@echo "Built target gears"
 .PHONY : glfw-3.1/examples/CMakeFiles/gears.dir/all
 
@@ -294,7 +294,7 @@ clean: glfw-3.1/examples/CMakeFiles/gears.dir/clean
 glfw-3.1/examples/CMakeFiles/heightmap.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/heightmap.dir/build.make glfw-3.1/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/heightmap.dir/build.make glfw-3.1/examples/CMakeFiles/heightmap.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  41 42
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  46 47
 	@echo "Built target heightmap"
 .PHONY : glfw-3.1/examples/CMakeFiles/heightmap.dir/all
 
@@ -329,7 +329,7 @@ clean: glfw-3.1/examples/CMakeFiles/heightmap.dir/clean
 glfw-3.1/examples/CMakeFiles/particles.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/particles.dir/build.make glfw-3.1/examples/CMakeFiles/particles.dir/depend
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/particles.dir/build.make glfw-3.1/examples/CMakeFiles/particles.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  48 49 50
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  53 54 55
 	@echo "Built target particles"
 .PHONY : glfw-3.1/examples/CMakeFiles/particles.dir/all
 
@@ -364,7 +364,7 @@ clean: glfw-3.1/examples/CMakeFiles/particles.dir/clean
 glfw-3.1/examples/CMakeFiles/simple.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/simple.dir/build.make glfw-3.1/examples/CMakeFiles/simple.dir/depend
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/simple.dir/build.make glfw-3.1/examples/CMakeFiles/simple.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  54
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  59
 	@echo "Built target simple"
 .PHONY : glfw-3.1/examples/CMakeFiles/simple.dir/all
 
@@ -399,7 +399,7 @@ clean: glfw-3.1/examples/CMakeFiles/simple.dir/clean
 glfw-3.1/examples/CMakeFiles/splitview.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/splitview.dir/build.make glfw-3.1/examples/CMakeFiles/splitview.dir/depend
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/splitview.dir/build.make glfw-3.1/examples/CMakeFiles/splitview.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  55
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  60
 	@echo "Built target splitview"
 .PHONY : glfw-3.1/examples/CMakeFiles/splitview.dir/all
 
@@ -434,7 +434,7 @@ clean: glfw-3.1/examples/CMakeFiles/splitview.dir/clean
 glfw-3.1/examples/CMakeFiles/wave.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/wave.dir/build.make glfw-3.1/examples/CMakeFiles/wave.dir/depend
 	$(MAKE) -f glfw-3.1/examples/CMakeFiles/wave.dir/build.make glfw-3.1/examples/CMakeFiles/wave.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  60
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  66
 	@echo "Built target wave"
 .PHONY : glfw-3.1/examples/CMakeFiles/wave.dir/all
 
@@ -522,7 +522,7 @@ glfw-3.1/tests/preinstall:
 glfw-3.1/tests/CMakeFiles/accuracy.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/accuracy.dir/build.make glfw-3.1/tests/CMakeFiles/accuracy.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/accuracy.dir/build.make glfw-3.1/tests/CMakeFiles/accuracy.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  10
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  14
 	@echo "Built target accuracy"
 .PHONY : glfw-3.1/tests/CMakeFiles/accuracy.dir/all
 
@@ -557,7 +557,7 @@ clean: glfw-3.1/tests/CMakeFiles/accuracy.dir/clean
 glfw-3.1/tests/CMakeFiles/clipboard.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/clipboard.dir/build.make glfw-3.1/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/clipboard.dir/build.make glfw-3.1/tests/CMakeFiles/clipboard.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  12 13
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  16 17
 	@echo "Built target clipboard"
 .PHONY : glfw-3.1/tests/CMakeFiles/clipboard.dir/all
 
@@ -592,7 +592,7 @@ clean: glfw-3.1/tests/CMakeFiles/clipboard.dir/clean
 glfw-3.1/tests/CMakeFiles/cursor.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/cursor.dir/build.make glfw-3.1/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/cursor.dir/build.make glfw-3.1/tests/CMakeFiles/cursor.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  14
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  18
 	@echo "Built target cursor"
 .PHONY : glfw-3.1/tests/CMakeFiles/cursor.dir/all
 
@@ -627,7 +627,7 @@ clean: glfw-3.1/tests/CMakeFiles/cursor.dir/clean
 glfw-3.1/tests/CMakeFiles/cursoranim.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/cursoranim.dir/build.make glfw-3.1/tests/CMakeFiles/cursoranim.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/cursoranim.dir/build.make glfw-3.1/tests/CMakeFiles/cursoranim.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  15
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  19
 	@echo "Built target cursoranim"
 .PHONY : glfw-3.1/tests/CMakeFiles/cursoranim.dir/all
 
@@ -662,7 +662,7 @@ clean: glfw-3.1/tests/CMakeFiles/cursoranim.dir/clean
 glfw-3.1/tests/CMakeFiles/defaults.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/defaults.dir/build.make glfw-3.1/tests/CMakeFiles/defaults.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/defaults.dir/build.make glfw-3.1/tests/CMakeFiles/defaults.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  16
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  20
 	@echo "Built target defaults"
 .PHONY : glfw-3.1/tests/CMakeFiles/defaults.dir/all
 
@@ -697,7 +697,7 @@ clean: glfw-3.1/tests/CMakeFiles/defaults.dir/clean
 glfw-3.1/tests/CMakeFiles/empty.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/empty.dir/build.make glfw-3.1/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/empty.dir/build.make glfw-3.1/tests/CMakeFiles/empty.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  17 18
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  21 22
 	@echo "Built target empty"
 .PHONY : glfw-3.1/tests/CMakeFiles/empty.dir/all
 
@@ -732,7 +732,7 @@ clean: glfw-3.1/tests/CMakeFiles/empty.dir/clean
 glfw-3.1/tests/CMakeFiles/events.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/events.dir/build.make glfw-3.1/tests/CMakeFiles/events.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/events.dir/build.make glfw-3.1/tests/CMakeFiles/events.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  19 20
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  23 24
 	@echo "Built target events"
 .PHONY : glfw-3.1/tests/CMakeFiles/events.dir/all
 
@@ -767,7 +767,7 @@ clean: glfw-3.1/tests/CMakeFiles/events.dir/clean
 glfw-3.1/tests/CMakeFiles/fsaa.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/fsaa.dir/build.make glfw-3.1/tests/CMakeFiles/fsaa.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/fsaa.dir/build.make glfw-3.1/tests/CMakeFiles/fsaa.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  21 22
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  25 26
 	@echo "Built target fsaa"
 .PHONY : glfw-3.1/tests/CMakeFiles/fsaa.dir/all
 
@@ -802,7 +802,7 @@ clean: glfw-3.1/tests/CMakeFiles/fsaa.dir/clean
 glfw-3.1/tests/CMakeFiles/gamma.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/gamma.dir/build.make glfw-3.1/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/gamma.dir/build.make glfw-3.1/tests/CMakeFiles/gamma.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  23 24
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  27 28
 	@echo "Built target gamma"
 .PHONY : glfw-3.1/tests/CMakeFiles/gamma.dir/all
 
@@ -837,7 +837,7 @@ clean: glfw-3.1/tests/CMakeFiles/gamma.dir/clean
 glfw-3.1/tests/CMakeFiles/glfwinfo.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/glfwinfo.dir/build.make glfw-3.1/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/glfwinfo.dir/build.make glfw-3.1/tests/CMakeFiles/glfwinfo.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  39 40
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  44 45
 	@echo "Built target glfwinfo"
 .PHONY : glfw-3.1/tests/CMakeFiles/glfwinfo.dir/all
 
@@ -872,7 +872,7 @@ clean: glfw-3.1/tests/CMakeFiles/glfwinfo.dir/clean
 glfw-3.1/tests/CMakeFiles/iconify.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/iconify.dir/build.make glfw-3.1/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/iconify.dir/build.make glfw-3.1/tests/CMakeFiles/iconify.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  43 44
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  48 49
 	@echo "Built target iconify"
 .PHONY : glfw-3.1/tests/CMakeFiles/iconify.dir/all
 
@@ -907,7 +907,7 @@ clean: glfw-3.1/tests/CMakeFiles/iconify.dir/clean
 glfw-3.1/tests/CMakeFiles/joysticks.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/joysticks.dir/build.make glfw-3.1/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/joysticks.dir/build.make glfw-3.1/tests/CMakeFiles/joysticks.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  45
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  50
 	@echo "Built target joysticks"
 .PHONY : glfw-3.1/tests/CMakeFiles/joysticks.dir/all
 
@@ -942,7 +942,7 @@ clean: glfw-3.1/tests/CMakeFiles/joysticks.dir/clean
 glfw-3.1/tests/CMakeFiles/modes.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/modes.dir/build.make glfw-3.1/tests/CMakeFiles/modes.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/modes.dir/build.make glfw-3.1/tests/CMakeFiles/modes.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  46 47
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  51 52
 	@echo "Built target modes"
 .PHONY : glfw-3.1/tests/CMakeFiles/modes.dir/all
 
@@ -977,7 +977,7 @@ clean: glfw-3.1/tests/CMakeFiles/modes.dir/clean
 glfw-3.1/tests/CMakeFiles/peter.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/peter.dir/build.make glfw-3.1/tests/CMakeFiles/peter.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/peter.dir/build.make glfw-3.1/tests/CMakeFiles/peter.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  51
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  56
 	@echo "Built target peter"
 .PHONY : glfw-3.1/tests/CMakeFiles/peter.dir/all
 
@@ -1012,7 +1012,7 @@ clean: glfw-3.1/tests/CMakeFiles/peter.dir/clean
 glfw-3.1/tests/CMakeFiles/reopen.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/reopen.dir/build.make glfw-3.1/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/reopen.dir/build.make glfw-3.1/tests/CMakeFiles/reopen.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  52
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  57
 	@echo "Built target reopen"
 .PHONY : glfw-3.1/tests/CMakeFiles/reopen.dir/all
 
@@ -1047,7 +1047,7 @@ clean: glfw-3.1/tests/CMakeFiles/reopen.dir/clean
 glfw-3.1/tests/CMakeFiles/sharing.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/sharing.dir/build.make glfw-3.1/tests/CMakeFiles/sharing.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/sharing.dir/build.make glfw-3.1/tests/CMakeFiles/sharing.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  53
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  58
 	@echo "Built target sharing"
 .PHONY : glfw-3.1/tests/CMakeFiles/sharing.dir/all
 
@@ -1082,7 +1082,7 @@ clean: glfw-3.1/tests/CMakeFiles/sharing.dir/clean
 glfw-3.1/tests/CMakeFiles/tearing.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/tearing.dir/build.make glfw-3.1/tests/CMakeFiles/tearing.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/tearing.dir/build.make glfw-3.1/tests/CMakeFiles/tearing.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  56
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  61
 	@echo "Built target tearing"
 .PHONY : glfw-3.1/tests/CMakeFiles/tearing.dir/all
 
@@ -1117,7 +1117,7 @@ clean: glfw-3.1/tests/CMakeFiles/tearing.dir/clean
 glfw-3.1/tests/CMakeFiles/threads.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/threads.dir/build.make glfw-3.1/tests/CMakeFiles/threads.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/threads.dir/build.make glfw-3.1/tests/CMakeFiles/threads.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  57 58
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  62 63
 	@echo "Built target threads"
 .PHONY : glfw-3.1/tests/CMakeFiles/threads.dir/all
 
@@ -1152,7 +1152,7 @@ clean: glfw-3.1/tests/CMakeFiles/threads.dir/clean
 glfw-3.1/tests/CMakeFiles/title.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/title.dir/build.make glfw-3.1/tests/CMakeFiles/title.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/title.dir/build.make glfw-3.1/tests/CMakeFiles/title.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  59
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  64
 	@echo "Built target title"
 .PHONY : glfw-3.1/tests/CMakeFiles/title.dir/all
 
@@ -1187,7 +1187,7 @@ clean: glfw-3.1/tests/CMakeFiles/title.dir/clean
 glfw-3.1/tests/CMakeFiles/windows.dir/all: glfw-3.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/windows.dir/build.make glfw-3.1/tests/CMakeFiles/windows.dir/depend
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/windows.dir/build.make glfw-3.1/tests/CMakeFiles/windows.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  61
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  67
 	@echo "Built target windows"
 .PHONY : glfw-3.1/tests/CMakeFiles/windows.dir/all
 
@@ -1213,6 +1213,280 @@ glfw-3.1/tests/CMakeFiles/windows.dir/clean:
 
 # clean rule for target.
 clean: glfw-3.1/tests/CMakeFiles/windows.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory glew
+
+# Convenience name for "all" pass in the directory.
+glew/all: glew/CMakeFiles/GLEW_MX_shared.dir/all
+glew/all: glew/CMakeFiles/GLEW_MX_static.dir/all
+glew/all: glew/CMakeFiles/GLEW_shared.dir/all
+glew/all: glew/CMakeFiles/GLEW_static.dir/all
+glew/all: glew/CMakeFiles/glewinfo.dir/all
+glew/all: glew/CMakeFiles/visualinfo.dir/all
+.PHONY : glew/all
+
+# Convenience name for "clean" pass in the directory.
+glew/clean: glew/CMakeFiles/GLEW_MX_shared.dir/clean
+glew/clean: glew/CMakeFiles/GLEW_MX_static.dir/clean
+glew/clean: glew/CMakeFiles/GLEW_shared.dir/clean
+glew/clean: glew/CMakeFiles/GLEW_static.dir/clean
+glew/clean: glew/CMakeFiles/glewinfo.dir/clean
+glew/clean: glew/CMakeFiles/visualinfo.dir/clean
+.PHONY : glew/clean
+
+# Convenience name for "preinstall" pass in the directory.
+glew/preinstall: glew/CMakeFiles/GLEW_MX_shared.dir/preinstall
+glew/preinstall: glew/CMakeFiles/GLEW_shared.dir/preinstall
+glew/preinstall: glew/CMakeFiles/glewinfo.dir/preinstall
+glew/preinstall: glew/CMakeFiles/visualinfo.dir/preinstall
+.PHONY : glew/preinstall
+
+#=============================================================================
+# Target rules for target glew/CMakeFiles/GLEW_MX_shared.dir
+
+# All Build rule for target.
+glew/CMakeFiles/GLEW_MX_shared.dir/all:
+	$(MAKE) -f glew/CMakeFiles/GLEW_MX_shared.dir/build.make glew/CMakeFiles/GLEW_MX_shared.dir/depend
+	$(MAKE) -f glew/CMakeFiles/GLEW_MX_shared.dir/build.make glew/CMakeFiles/GLEW_MX_shared.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  1
+	@echo "Built target GLEW_MX_shared"
+.PHONY : glew/CMakeFiles/GLEW_MX_shared.dir/all
+
+# Include target in all.
+all: glew/CMakeFiles/GLEW_MX_shared.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+glew/CMakeFiles/GLEW_MX_shared.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 glew/CMakeFiles/GLEW_MX_shared.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 0
+.PHONY : glew/CMakeFiles/GLEW_MX_shared.dir/rule
+
+# Convenience name for target.
+GLEW_MX_shared: glew/CMakeFiles/GLEW_MX_shared.dir/rule
+.PHONY : GLEW_MX_shared
+
+# Pre-install relink rule for target.
+glew/CMakeFiles/GLEW_MX_shared.dir/preinstall:
+	$(MAKE) -f glew/CMakeFiles/GLEW_MX_shared.dir/build.make glew/CMakeFiles/GLEW_MX_shared.dir/preinstall
+.PHONY : glew/CMakeFiles/GLEW_MX_shared.dir/preinstall
+
+# Prepare target for install.
+preinstall: glew/CMakeFiles/GLEW_MX_shared.dir/preinstall
+.PHONY : preinstall
+
+# clean rule for target.
+glew/CMakeFiles/GLEW_MX_shared.dir/clean:
+	$(MAKE) -f glew/CMakeFiles/GLEW_MX_shared.dir/build.make glew/CMakeFiles/GLEW_MX_shared.dir/clean
+.PHONY : glew/CMakeFiles/GLEW_MX_shared.dir/clean
+
+# clean rule for target.
+clean: glew/CMakeFiles/GLEW_MX_shared.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target glew/CMakeFiles/GLEW_MX_static.dir
+
+# All Build rule for target.
+glew/CMakeFiles/GLEW_MX_static.dir/all:
+	$(MAKE) -f glew/CMakeFiles/GLEW_MX_static.dir/build.make glew/CMakeFiles/GLEW_MX_static.dir/depend
+	$(MAKE) -f glew/CMakeFiles/GLEW_MX_static.dir/build.make glew/CMakeFiles/GLEW_MX_static.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  2
+	@echo "Built target GLEW_MX_static"
+.PHONY : glew/CMakeFiles/GLEW_MX_static.dir/all
+
+# Include target in all.
+all: glew/CMakeFiles/GLEW_MX_static.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+glew/CMakeFiles/GLEW_MX_static.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 glew/CMakeFiles/GLEW_MX_static.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 0
+.PHONY : glew/CMakeFiles/GLEW_MX_static.dir/rule
+
+# Convenience name for target.
+GLEW_MX_static: glew/CMakeFiles/GLEW_MX_static.dir/rule
+.PHONY : GLEW_MX_static
+
+# clean rule for target.
+glew/CMakeFiles/GLEW_MX_static.dir/clean:
+	$(MAKE) -f glew/CMakeFiles/GLEW_MX_static.dir/build.make glew/CMakeFiles/GLEW_MX_static.dir/clean
+.PHONY : glew/CMakeFiles/GLEW_MX_static.dir/clean
+
+# clean rule for target.
+clean: glew/CMakeFiles/GLEW_MX_static.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target glew/CMakeFiles/GLEW_shared.dir
+
+# All Build rule for target.
+glew/CMakeFiles/GLEW_shared.dir/all:
+	$(MAKE) -f glew/CMakeFiles/GLEW_shared.dir/build.make glew/CMakeFiles/GLEW_shared.dir/depend
+	$(MAKE) -f glew/CMakeFiles/GLEW_shared.dir/build.make glew/CMakeFiles/GLEW_shared.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  3
+	@echo "Built target GLEW_shared"
+.PHONY : glew/CMakeFiles/GLEW_shared.dir/all
+
+# Include target in all.
+all: glew/CMakeFiles/GLEW_shared.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+glew/CMakeFiles/GLEW_shared.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 glew/CMakeFiles/GLEW_shared.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 0
+.PHONY : glew/CMakeFiles/GLEW_shared.dir/rule
+
+# Convenience name for target.
+GLEW_shared: glew/CMakeFiles/GLEW_shared.dir/rule
+.PHONY : GLEW_shared
+
+# Pre-install relink rule for target.
+glew/CMakeFiles/GLEW_shared.dir/preinstall:
+	$(MAKE) -f glew/CMakeFiles/GLEW_shared.dir/build.make glew/CMakeFiles/GLEW_shared.dir/preinstall
+.PHONY : glew/CMakeFiles/GLEW_shared.dir/preinstall
+
+# Prepare target for install.
+preinstall: glew/CMakeFiles/GLEW_shared.dir/preinstall
+.PHONY : preinstall
+
+# clean rule for target.
+glew/CMakeFiles/GLEW_shared.dir/clean:
+	$(MAKE) -f glew/CMakeFiles/GLEW_shared.dir/build.make glew/CMakeFiles/GLEW_shared.dir/clean
+.PHONY : glew/CMakeFiles/GLEW_shared.dir/clean
+
+# clean rule for target.
+clean: glew/CMakeFiles/GLEW_shared.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target glew/CMakeFiles/GLEW_static.dir
+
+# All Build rule for target.
+glew/CMakeFiles/GLEW_static.dir/all:
+	$(MAKE) -f glew/CMakeFiles/GLEW_static.dir/build.make glew/CMakeFiles/GLEW_static.dir/depend
+	$(MAKE) -f glew/CMakeFiles/GLEW_static.dir/build.make glew/CMakeFiles/GLEW_static.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  4
+	@echo "Built target GLEW_static"
+.PHONY : glew/CMakeFiles/GLEW_static.dir/all
+
+# Include target in all.
+all: glew/CMakeFiles/GLEW_static.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+glew/CMakeFiles/GLEW_static.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 glew/CMakeFiles/GLEW_static.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 0
+.PHONY : glew/CMakeFiles/GLEW_static.dir/rule
+
+# Convenience name for target.
+GLEW_static: glew/CMakeFiles/GLEW_static.dir/rule
+.PHONY : GLEW_static
+
+# clean rule for target.
+glew/CMakeFiles/GLEW_static.dir/clean:
+	$(MAKE) -f glew/CMakeFiles/GLEW_static.dir/build.make glew/CMakeFiles/GLEW_static.dir/clean
+.PHONY : glew/CMakeFiles/GLEW_static.dir/clean
+
+# clean rule for target.
+clean: glew/CMakeFiles/GLEW_static.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target glew/CMakeFiles/glewinfo.dir
+
+# All Build rule for target.
+glew/CMakeFiles/glewinfo.dir/all: glew/CMakeFiles/GLEW_shared.dir/all
+	$(MAKE) -f glew/CMakeFiles/glewinfo.dir/build.make glew/CMakeFiles/glewinfo.dir/depend
+	$(MAKE) -f glew/CMakeFiles/glewinfo.dir/build.make glew/CMakeFiles/glewinfo.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  30
+	@echo "Built target glewinfo"
+.PHONY : glew/CMakeFiles/glewinfo.dir/all
+
+# Include target in all.
+all: glew/CMakeFiles/glewinfo.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+glew/CMakeFiles/glewinfo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 glew/CMakeFiles/glewinfo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 0
+.PHONY : glew/CMakeFiles/glewinfo.dir/rule
+
+# Convenience name for target.
+glewinfo: glew/CMakeFiles/glewinfo.dir/rule
+.PHONY : glewinfo
+
+# Pre-install relink rule for target.
+glew/CMakeFiles/glewinfo.dir/preinstall:
+	$(MAKE) -f glew/CMakeFiles/glewinfo.dir/build.make glew/CMakeFiles/glewinfo.dir/preinstall
+.PHONY : glew/CMakeFiles/glewinfo.dir/preinstall
+
+# Prepare target for install.
+preinstall: glew/CMakeFiles/glewinfo.dir/preinstall
+.PHONY : preinstall
+
+# clean rule for target.
+glew/CMakeFiles/glewinfo.dir/clean:
+	$(MAKE) -f glew/CMakeFiles/glewinfo.dir/build.make glew/CMakeFiles/glewinfo.dir/clean
+.PHONY : glew/CMakeFiles/glewinfo.dir/clean
+
+# clean rule for target.
+clean: glew/CMakeFiles/glewinfo.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target glew/CMakeFiles/visualinfo.dir
+
+# All Build rule for target.
+glew/CMakeFiles/visualinfo.dir/all: glew/CMakeFiles/GLEW_shared.dir/all
+	$(MAKE) -f glew/CMakeFiles/visualinfo.dir/build.make glew/CMakeFiles/visualinfo.dir/depend
+	$(MAKE) -f glew/CMakeFiles/visualinfo.dir/build.make glew/CMakeFiles/visualinfo.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles  65
+	@echo "Built target visualinfo"
+.PHONY : glew/CMakeFiles/visualinfo.dir/all
+
+# Include target in all.
+all: glew/CMakeFiles/visualinfo.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+glew/CMakeFiles/visualinfo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 glew/CMakeFiles/visualinfo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hainan/Dropbox/Graphics/assistance/Wave-CPP/CMakeFiles 0
+.PHONY : glew/CMakeFiles/visualinfo.dir/rule
+
+# Convenience name for target.
+visualinfo: glew/CMakeFiles/visualinfo.dir/rule
+.PHONY : visualinfo
+
+# Pre-install relink rule for target.
+glew/CMakeFiles/visualinfo.dir/preinstall:
+	$(MAKE) -f glew/CMakeFiles/visualinfo.dir/build.make glew/CMakeFiles/visualinfo.dir/preinstall
+.PHONY : glew/CMakeFiles/visualinfo.dir/preinstall
+
+# Prepare target for install.
+preinstall: glew/CMakeFiles/visualinfo.dir/preinstall
+.PHONY : preinstall
+
+# clean rule for target.
+glew/CMakeFiles/visualinfo.dir/clean:
+	$(MAKE) -f glew/CMakeFiles/visualinfo.dir/build.make glew/CMakeFiles/visualinfo.dir/clean
+.PHONY : glew/CMakeFiles/visualinfo.dir/clean
+
+# clean rule for target.
+clean: glew/CMakeFiles/visualinfo.dir/clean
 .PHONY : clean
 
 #=============================================================================

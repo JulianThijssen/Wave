@@ -519,6 +519,104 @@ windows/fast:
 	$(MAKE) -f glfw-3.1/tests/CMakeFiles/windows.dir/build.make glfw-3.1/tests/CMakeFiles/windows.dir/build
 .PHONY : windows/fast
 
+#=============================================================================
+# Target rules for targets named GLEW_MX_shared
+
+# Build rule for target.
+GLEW_MX_shared: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GLEW_MX_shared
+.PHONY : GLEW_MX_shared
+
+# fast build rule for target.
+GLEW_MX_shared/fast:
+	$(MAKE) -f glew/CMakeFiles/GLEW_MX_shared.dir/build.make glew/CMakeFiles/GLEW_MX_shared.dir/build
+.PHONY : GLEW_MX_shared/fast
+
+# Manual pre-install relink rule for target.
+GLEW_MX_shared/preinstall:
+	$(MAKE) -f glew/CMakeFiles/GLEW_MX_shared.dir/build.make glew/CMakeFiles/GLEW_MX_shared.dir/preinstall
+.PHONY : GLEW_MX_shared/preinstall
+
+#=============================================================================
+# Target rules for targets named GLEW_MX_static
+
+# Build rule for target.
+GLEW_MX_static: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GLEW_MX_static
+.PHONY : GLEW_MX_static
+
+# fast build rule for target.
+GLEW_MX_static/fast:
+	$(MAKE) -f glew/CMakeFiles/GLEW_MX_static.dir/build.make glew/CMakeFiles/GLEW_MX_static.dir/build
+.PHONY : GLEW_MX_static/fast
+
+#=============================================================================
+# Target rules for targets named GLEW_shared
+
+# Build rule for target.
+GLEW_shared: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GLEW_shared
+.PHONY : GLEW_shared
+
+# fast build rule for target.
+GLEW_shared/fast:
+	$(MAKE) -f glew/CMakeFiles/GLEW_shared.dir/build.make glew/CMakeFiles/GLEW_shared.dir/build
+.PHONY : GLEW_shared/fast
+
+# Manual pre-install relink rule for target.
+GLEW_shared/preinstall:
+	$(MAKE) -f glew/CMakeFiles/GLEW_shared.dir/build.make glew/CMakeFiles/GLEW_shared.dir/preinstall
+.PHONY : GLEW_shared/preinstall
+
+#=============================================================================
+# Target rules for targets named GLEW_static
+
+# Build rule for target.
+GLEW_static: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GLEW_static
+.PHONY : GLEW_static
+
+# fast build rule for target.
+GLEW_static/fast:
+	$(MAKE) -f glew/CMakeFiles/GLEW_static.dir/build.make glew/CMakeFiles/GLEW_static.dir/build
+.PHONY : GLEW_static/fast
+
+#=============================================================================
+# Target rules for targets named glewinfo
+
+# Build rule for target.
+glewinfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 glewinfo
+.PHONY : glewinfo
+
+# fast build rule for target.
+glewinfo/fast:
+	$(MAKE) -f glew/CMakeFiles/glewinfo.dir/build.make glew/CMakeFiles/glewinfo.dir/build
+.PHONY : glewinfo/fast
+
+# Manual pre-install relink rule for target.
+glewinfo/preinstall:
+	$(MAKE) -f glew/CMakeFiles/glewinfo.dir/build.make glew/CMakeFiles/glewinfo.dir/preinstall
+.PHONY : glewinfo/preinstall
+
+#=============================================================================
+# Target rules for targets named visualinfo
+
+# Build rule for target.
+visualinfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualinfo
+.PHONY : visualinfo
+
+# fast build rule for target.
+visualinfo/fast:
+	$(MAKE) -f glew/CMakeFiles/visualinfo.dir/build.make glew/CMakeFiles/visualinfo.dir/build
+.PHONY : visualinfo/fast
+
+# Manual pre-install relink rule for target.
+visualinfo/preinstall:
+	$(MAKE) -f glew/CMakeFiles/visualinfo.dir/build.make glew/CMakeFiles/visualinfo.dir/preinstall
+.PHONY : visualinfo/preinstall
+
 Application.o: Application.cpp.o
 .PHONY : Application.o
 
@@ -776,6 +874,12 @@ help:
 	@echo "... threads"
 	@echo "... title"
 	@echo "... windows"
+	@echo "... GLEW_MX_shared"
+	@echo "... GLEW_MX_static"
+	@echo "... GLEW_shared"
+	@echo "... GLEW_static"
+	@echo "... glewinfo"
+	@echo "... visualinfo"
 	@echo "... Application.o"
 	@echo "... Application.i"
 	@echo "... Application.s"

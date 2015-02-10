@@ -7,6 +7,7 @@ CMakeFiles/Wave.dir/Application.cpp.o: Vector2f.h
 CMakeFiles/Wave.dir/Application.cpp.o: Vector3f.h
 CMakeFiles/Wave.dir/Application.cpp.o: WaterSurface.h
 CMakeFiles/Wave.dir/Application.cpp.o: Window.h
+CMakeFiles/Wave.dir/Application.cpp.o: glew/include/GL/glew.h
 CMakeFiles/Wave.dir/Application.cpp.o: glfw-3.1/include/GLFW/glfw3.h
 
 CMakeFiles/Wave.dir/Log.cpp.o: Log.cpp
@@ -21,10 +22,12 @@ CMakeFiles/Wave.dir/Renderer.cpp.o: ShaderLoader.h
 CMakeFiles/Wave.dir/Renderer.cpp.o: Vector2f.h
 CMakeFiles/Wave.dir/Renderer.cpp.o: Vector3f.h
 CMakeFiles/Wave.dir/Renderer.cpp.o: WaterSurface.h
+CMakeFiles/Wave.dir/Renderer.cpp.o: glew/include/GL/glew.h
 
 CMakeFiles/Wave.dir/ShaderLoader.cpp.o: Log.h
 CMakeFiles/Wave.dir/ShaderLoader.cpp.o: ShaderLoader.cpp
 CMakeFiles/Wave.dir/ShaderLoader.cpp.o: ShaderLoader.h
+CMakeFiles/Wave.dir/ShaderLoader.cpp.o: glew/include/GL/glew.h
 
 CMakeFiles/Wave.dir/Vector2f.cpp.o: Vector2f.cpp
 CMakeFiles/Wave.dir/Vector2f.cpp.o: Vector2f.h
@@ -37,9 +40,11 @@ CMakeFiles/Wave.dir/WaterSurface.cpp.o: Vector2f.h
 CMakeFiles/Wave.dir/WaterSurface.cpp.o: Vector3f.h
 CMakeFiles/Wave.dir/WaterSurface.cpp.o: WaterSurface.cpp
 CMakeFiles/Wave.dir/WaterSurface.cpp.o: WaterSurface.h
+CMakeFiles/Wave.dir/WaterSurface.cpp.o: glew/include/GL/glew.h
 
 CMakeFiles/Wave.dir/Window.cpp.o: Log.h
 CMakeFiles/Wave.dir/Window.cpp.o: Window.cpp
 CMakeFiles/Wave.dir/Window.cpp.o: Window.h
+CMakeFiles/Wave.dir/Window.cpp.o: glew/include/GL/glew.h
 CMakeFiles/Wave.dir/Window.cpp.o: glfw-3.1/include/GLFW/glfw3.h
 
